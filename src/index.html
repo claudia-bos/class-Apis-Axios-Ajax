@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>Main page</div>
+
+    <h3>Pokemon Name:</h3>
+    <p id="poke-name"></p>
+
+    <h3>Best Star Wars Episode:</h3>
+    <p id="star-wars-movie"></p>
+
+    <label>How many Pokemon do you want?</label>
+    <input type="text" placeholder="Enter a number">
+    <button>Catch 'em!</button>
+    
+    <h3>Pokemon List</h3>
+    <ul id="poke-list"></ul>
+
+    <h2>Order Cookies</h2>
+
+    <form id="order-form">
+      <p>
+        <label>Quantity
+          <input type="number" name="qty" id="qty-field">
+        </label>
+      </p>
+
+      <p>
+        <label>Cookie Type
+          <select id="cookie-type-field" name="cookie-type">
+            <option>Chocolate Chip</option>
+            <option>Snickerdoodle</option>
+          </select>
+        </label>
+      </p>
+
+      <button type="submit" id="order-form-button">Order</button>
+    </form>
+    <br>
+    <div id="order-status"></div>
+    <div id="order-total"></div>
+
+</body>
+<script src="../src/main.js" type="module"></script>
+</html>
